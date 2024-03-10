@@ -11,14 +11,14 @@ pipeline {
 
         stage('Test') {
             steps {
-                echo 'Running tests...'
+                ech 'Running tests...'
                 // Add your test commands here
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploying the application...'
+                ech 'Deploying the application...'
                 // Add your deployment commands here
             }
         }
